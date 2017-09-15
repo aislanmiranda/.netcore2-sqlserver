@@ -1,5 +1,3 @@
-using Demo.Domain.Dtos;
-
 namespace Demo.Domain.Entities
 {
     public class Category : Entity
