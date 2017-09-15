@@ -216,3 +216,4 @@ __pycache__/
 .DS_Store
 aspnetcore/fundamentals/servers/httpsys/_static/Thumbs.db
 src/Demo.Api/appsettings.json
+src/Demo.Api/appsettings.json
