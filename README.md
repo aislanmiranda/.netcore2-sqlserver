@@ -32,7 +32,7 @@ Ex: dotnet sln add src\Demo.Domain\Demo.Domain.csproj
 ```
 
 Gerar o migrations: Antes  altere as configurações no arquivo appsettings.json
-"DefaultConnection": "... user id=USUARIO-BANCO; password=SENHA-BANCO;"
+"DefaultConnection": "data source=.\\INSTANCIA-BANCO; user id=USUARIO-BANCO; password=SENHA-BANCO;"
 ```
 No prompt de comando acesse a pasta do seu projeto:
 pasta-do-projeto\src\Demo.Data> dotnet ef --startup-project ..\Demo.Api\Demo.Api.csproj --project .\Demo.Data.csproj  migrations add AddCategory
