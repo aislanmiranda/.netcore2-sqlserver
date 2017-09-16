@@ -37,4 +37,4 @@ Gerar o migrations: Antes  altere as configurações no arquivo appsettings.json
 No prompt de comando acesse a pasta do seu projeto:
 pasta-do-projeto\src\Demo.Data> dotnet ef --startup-project ..\Demo.Api\Demo.Api.csproj --project .\Demo.Data.csproj  migrations add AddCategory
 depois execute > dotnet ef --startup-project ..\Demo.Api\Demo.Api.csproj --project .\Demo.Data.csproj database update
-```
+```"

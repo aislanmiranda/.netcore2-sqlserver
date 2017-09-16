@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Threading.Tasks;
+using Demo.Data.Mapping;
 using Demo.Domain;
 using Demo.Domain.Contracts;
 using Demo.Domain.Entities;
@@ -46,6 +47,15 @@ namespace Demo.Data
         void IEFUnityOfWorker.SetModifiedState<T>(T entity)
         {
             Entry(entity).State = EntityState.Modified;
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.ApplyConfiguration(new CategoryMap());
+            modelBuilder.ApplyConfiguration(new ProductMap());
+
+            base.OnModelCreating(modelBuilder);
         }
 
     }
