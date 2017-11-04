@@ -1,5 +1,5 @@
 # aspnetcore2
-Projeto ASP.NET Core 2.0
+Projeto ASP.NET Core 2.0 Utilizando EntityFramework Core e Migrations para criação do Banco a Tabelas.
 
 Requisitos:
 1. Baixar o sdk asp.net core 2.0
