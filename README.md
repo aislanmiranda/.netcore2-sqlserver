@@ -29,7 +29,7 @@ Ex: dotnet new sln --name DemoProject
 Adicionar referenciar projeto na solution
 ```
 dotnet sln add <caminho-projeto>
-Ex: dotnet sln add src\Demo.Domain\Demo.Domain.csproj
+Ex: dotnet sln add ./src/Demo.Domain/Demo.Domain.csproj
 ```
 
 Gerar o migrations: Antes  altere as configurações no arquivo appsettings.json
